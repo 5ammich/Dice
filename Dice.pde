@@ -27,8 +27,8 @@ void draw()
 }
 void mousePressed()
 {
-  redraw();
   sum = 0;
+  redraw();
   r = (int)(Math.random()*255);
   g = (int)(Math.random()*255);
   b = (int)(Math.random()*255);
